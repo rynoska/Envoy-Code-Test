@@ -1,9 +1,9 @@
 ## Envoy Code Test
 
-#Master Branch
+-Master Branch
 Contains Slider with commented out optional Hero
 
-#Hero Branch
+-Hero Branch
 Contains optional Hero that would replace Slider feature
 
 ///
@@ -14,35 +14,35 @@ you a more efficient style sheet author.
 [Neat] is a fluid grid framework with the aim of being easy enough to
 use out of the box and flexible enough to customize down the road.
 
-  [Bourbon]: http://bourbon.io/
-  [Neat]: https://neat.bourbon.io/
-  [Sass]: http://sass-lang.com
+[Bourbon]: http://bourbon.io/
+[Neat]: https://neat.bourbon.io/
+[Sass]: http://sass-lang.com
 
 ## Installation
 
 1. Clone the repository, and open a shell terminal within the project's root
-   directory.
+directory.
 
 1. After [installing Node.js and NPM], install the gulp via the following.
 
-   ```
-   npm install --global gulp-cli
-   ```
+```
+npm install --global gulp-cli
+```
 
 1. Install the project packages.
 
-   ```
-   npm install
-   ```
+```
+npm install
+```
 
 1. Run the default `gulp` command which will complie the stylesheets, with
-   Bourbon and Neat inclded as well as creating a local server at
-   [`http://localhost:8000`](http://localhost:8000). Gulp will continue to watch
-   the `/stylesheets` to monitor for any changes.
+Bourbon and Neat inclded as well as creating a local server at
+[`http://localhost:8000`](http://localhost:8000). Gulp will continue to watch
+the `/stylesheets` to monitor for any changes.
 
-   ```
-   gulp
-   ```
+```
+gulp
+```
 
 
 [installing Node.js and NPM]: https://docs.npmjs.com/getting-started/installing-node/
@@ -56,6 +56,7 @@ It is free software, and may be redistributed under the terms specified in the
 
 [![thoughtbot][thoughtbot-logo]][thoughtbot]
 
-  [license]: LICENSE.md
-  [thoughtbot]: https://thoughtbot.com?utm_source=github
-  [thoughtbot-logo]: http://presskit.thoughtbot.com/images/thoughtbot-logo-for-readmes.svg
+[license]: LICENSE.md
+[thoughtbot]: https://thoughtbot.com?utm_source=github
+[thoughtbot-logo]: http://presskit.thoughtbot.com/images/thoughtbot-logo-for-readmes.svg
+
