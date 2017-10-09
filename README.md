@@ -1,4 +1,12 @@
-## Envoy Test - RLE
+## Envoy Test - Ryne Estwing
+
+#Master Branch
+Contains the carousel feature right below the header
+
+#Hero Branch
+Contains a hero feature instead of the carousel feature irght below the header
+
+///
 
 [Bourbon] is a library of [Sass] mixins and functions that are designed to make
 you a more efficient style sheet author.
