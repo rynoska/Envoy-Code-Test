@@ -3,7 +3,7 @@
 -Master Branch
 Contains Slider with commented out optional Hero
 
--Hero Branch
+-gitHero Branch
 Contains optional Hero that would replace Slider feature
 
 ///
