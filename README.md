@@ -1,9 +1,9 @@
 ## Envoy Test - Ryne Estwing
 
-#Master Branch
+-Master Branch
 Contains the carousel feature right below the header
 
-#Hero Branch
+-Hero Branch
 Contains a hero feature instead of the carousel feature irght below the header
 
 ///
