@@ -1,0 +1,14 @@
+// FONTS //
+
+@font-face {
+  font-family: 'Trade-Gothic';
+  src: url('../fonts/trade/trade.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/trade/trade.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/trade/trade.woff2') format('woff2'),
+    url('../fonts/trade/trade.woff') format('woff'),
+    url('../fonts/trade/trade.ttf') format('truetype'),
+    url('../fonts/trade/trade.svg#trade') format('svg'); /* Legacy iOS */
+}
+
+$main-stack: Arial, Helvetica, san-serif;
+$heading-stack: 'Trade-Gothic', Arial, Helvetica, san-serif;

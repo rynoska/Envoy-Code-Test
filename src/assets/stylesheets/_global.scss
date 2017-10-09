@@ -1,0 +1,57 @@
+// GLOBAL //
+
+body {
+  background-color: $black;
+  color: white;
+  font-family: $font-stack-system;
+  font-family: $main-stack;
+  font-weight: bold;
+  margin: 0 auto;
+  font-size: 13px;
+
+  // for the sake of this test
+  margin-bottom: 4em;
+}
+
+a, a:visited {
+  color: $red;
+  text-decoration: none;
+  transition: $transition;
+  &:hover, &:active {
+    opacity: $opacity;
+  }
+}
+
+.bkgd-container {
+  background-color: $black;
+  width: 100%;
+  height: auto;
+  z-index: 1000;
+  margin-bottom: 50px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  position: relative;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #282828;
+  padding: 0;
+  &.hr-large {
+    border-top: 5px solid #282828;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+.clear {
+  clear: both;
+}

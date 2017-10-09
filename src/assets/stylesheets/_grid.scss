@@ -1,0 +1,21 @@
+// GRID //
+$row-thirds: (columns: 1, gutter: 20px);
+
+$row-thirds-tablet-up: (columns: 3, gutter: 20px, media: "(min-width: 768px)");
+
+$row-halfs-tablet-up: (columns: 2, gutter: 20px, media: "(min-width: 768px)");
+
+.row-thirds {
+  @include grid-container;
+  @include grid-collapse;
+  margin-top: 20px;
+}
+
+.col-3 {
+  @include grid-column(1, $row-thirds);
+
+  @include grid-media($row-thirds-tablet-up) {
+    @include grid-column(1);
+  }
+  margin-bottom: 20px;
+}

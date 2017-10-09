@@ -1,0 +1,47 @@
+// VARIABLES //
+
+// Media //
+
+$tablet: 768px;
+$mobile: 480px;
+$tiny-mobile: 320px;
+
+// Colors //
+
+$black: #1d1d1d;
+$red: #f05134;
+$dark-red: #d90e0a;
+$gray: #9f9f9f;
+$teal: #5fc3b1;
+$orange: #f68f1e;
+$blue: #2162bc;
+
+.black {
+  color: $black;
+}
+.red {
+  color: $red;
+}
+.dark-red {
+  color: $dark-red;
+}
+.gray {
+  color: $gray;
+}
+.teal {
+  color: $teal;
+}
+.orange {
+  color: $orange;
+}
+.blue {
+  color: $blue;
+}
+
+// Misc //
+
+$transition: all .15s ease-in-out;
+
+$menu-transition: all .5s ease-in-out;
+
+$opacity: .9;
